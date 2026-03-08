@@ -6,34 +6,36 @@
 <title>فهرس مُلاك نساج تاون الرياض</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #f0f4f8; color: #1a1a2e; direction: rtl; }
-  .header { background: linear-gradient(135deg, #1e3a5f, #2d6a9f); color: white; padding: 28px 20px; text-align: center; }
-  .header h1 { font-size: 1.6em; margin-bottom: 6px; }
-  .header p { opacity: 0.85; font-size: 0.9em; }
+  body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #0d1117; color: #e6edf3; direction: rtl; }
+  .header { background: linear-gradient(135deg, #161b22, #1f2937); border-bottom: 1px solid #30363d; padding: 28px 20px; text-align: center; }
+  .header h1 { font-size: 1.6em; margin-bottom: 6px; color: #58a6ff; }
+  .header p { opacity: 0.6; font-size: 0.88em; color: #8b949e; }
   .container { max-width: 720px; margin: 0 auto; padding: 16px; }
-  .faq { background: #fff8e1; border-right: 4px solid #f59e0b; border-radius: 10px; padding: 16px; margin: 16px 0; }
-  .faq h2 { color: #b45309; margin-bottom: 12px; font-size: 1em; }
-  .faq table { width: 100%; border-collapse: collapse; font-size: 0.9em; }
-  .faq td { padding: 8px 6px; border-bottom: 1px solid #fde68a; vertical-align: top; }
-  .faq td:first-child { font-weight: bold; white-space: nowrap; color: #92400e; width: 40%; }
-  .section { background: white; border-radius: 12px; margin: 14px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.07); overflow: hidden; }
-  .section-header { padding: 14px 16px; font-weight: bold; font-size: 1em; display: flex; align-items: center; gap: 8px; }
-  .section ul { list-style: none; padding: 0 0 8px 0; }
-  .section li { border-top: 1px solid #f0f0f0; }
-  .section li a { display: flex; justify-content: space-between; align-items: center; padding: 12px 16px; color: #1a1a2e; text-decoration: none; font-size: 0.92em; transition: background 0.15s; }
-  .section li a:hover { background: #f0f7ff; }
-  .section li a .num { direction: ltr; background: #e8f4fd; color: #1565c0; padding: 3px 8px; border-radius: 20px; font-size: 0.85em; font-weight: bold; white-space: nowrap; }
-  .section li a .star { color: #f59e0b; margin-left: 4px; }
-  .s-water .section-header { background: #e0f2fe; color: #0369a1; }
-  .s-plumb .section-header { background: #fce7f3; color: #9d174d; }
-  .s-carp .section-header { background: #fef3c7; color: #92400e; }
-  .s-gyp .section-header { background: #ede9fe; color: #5b21b6; }
-  .s-gas .section-header { background: #fee2e2; color: #991b1b; }
-  .s-cont .section-header { background: #d1fae5; color: #065f46; }
-  .s-door .section-header { background: #e0e7ff; color: #3730a3; }
-  .s-net .section-header { background: #f0fdf4; color: #166534; }
-  .s-clean .section-header { background: #f9fafb; color: #374151; }
-  footer { text-align: center; padding: 20px; font-size: 0.8em; color: #6b7280; }
+  .faq { background: #161b22; border: 1px solid #f0883e33; border-right: 4px solid #f0883e; border-radius: 10px; padding: 16px; margin: 16px 0; }
+  .faq h2 { color: #f0883e; margin-bottom: 12px; font-size: 0.95em; }
+  .faq table { width: 100%; border-collapse: collapse; font-size: 0.88em; }
+  .faq td { padding: 8px 6px; border-bottom: 1px solid #21262d; vertical-align: top; color: #c9d1d9; }
+  .faq td:first-child { font-weight: bold; white-space: nowrap; color: #f0883e; width: 40%; }
+  .section { background: #161b22; border: 1px solid #30363d; border-radius: 12px; margin: 14px 0; overflow: hidden; }
+  .section-header { padding: 13px 16px; font-weight: bold; font-size: 0.95em; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #30363d; }
+  .section ul { list-style: none; }
+  .section li { border-bottom: 1px solid #21262d; }
+  .section li:last-child { border-bottom: none; }
+  .section li a { display: flex; justify-content: space-between; align-items: center; padding: 12px 16px; color: #c9d1d9; text-decoration: none; font-size: 0.9em; transition: background 0.15s; }
+  .section li a:hover { background: #1c2128; }
+  .section li a .num { direction: ltr; background: #1c2128; color: #58a6ff; border: 1px solid #30363d; padding: 3px 10px; border-radius: 20px; font-size: 0.82em; font-weight: bold; white-space: nowrap; }
+  .section li a .star { color: #f0883e; margin-left: 4px; }
+  .s-water .section-header { color: #58a6ff; }
+  .s-plumb .section-header { color: #bc8cff; }
+  .s-carp .section-header { color: #e3b341; }
+  .s-gyp .section-header { color: #a5d6ff; }
+  .s-gas .section-header { color: #ff7b72; }
+  .s-cont .section-header { color: #7ee787; }
+  .s-door .section-header { color: #79c0ff; }
+  .s-net .section-header { color: #56d364; }
+  .s-clean .section-header { color: #8b949e; }
+  footer { text-align: center; padding: 20px; font-size: 0.78em; color: #484f58; }
+  ::-webkit-scrollbar { width: 6px; } ::-webkit-scrollbar-track { background: #0d1117; } ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 3px; }
 </style>
 </head>
 <body>
@@ -49,9 +51,9 @@
   <h2>❓ الأسئلة الأكثر تكراراً</h2>
   <table>
     <tr><td>وش رقم الوايت؟</td><td>0595911993 واتساب ⭐</td></tr>
-    <tr><td>رقم الغاز؟</td><td>0551894973 · يجي قبل الظهر · 33 ريال</td></tr>
-    <tr><td>الفايبر ما ركب؟</td><td>فواز الزهراني (موظف STC): 0500069849 واتساب</td></tr>
-    <tr><td>صيانة رتال ما ترد؟</td><td>ارفع تذكرة بتطبيق رتال ثم اتصل بهم بالرقم الرسمي</td></tr>
+    <tr><td>رقم الغاز؟</td><td>0551894973 · قبل الظهر · 33 ريال</td></tr>
+    <tr><td>الفايبر ما ركب؟</td><td>فواز الزهراني (STC): 0500069849 واتساب</td></tr>
+    <tr><td>صيانة رتال ما ترد؟</td><td>ارفع تذكرة بتطبيق رتال + اتصل برقمهم</td></tr>
     <tr><td>تسريب والمطور ما يرد؟</td><td>تذكرة رتال + تصعيد للرقم الرسمي</td></tr>
   </table>
 </div>
@@ -120,7 +122,7 @@
 <div class="section s-net">
   <div class="section-header">📡 انترنت / STC</div>
   <ul>
-    <li><a href="https://t.me/c/1690201429/45897"><span>فواز الزهراني — موظف STC · ينهي الطلب خلال 48 ساعة</span><span class="num">0500069849</span></a></li>
+    <li><a href="https://t.me/c/1690201429/45897"><span>فواز الزهراني — موظف STC · 48 ساعة</span><span class="num">0500069849</span></a></li>
   </ul>
 </div>
 
